@@ -4,20 +4,21 @@
     <meta charset="utf-8">
     <link rel='stylesheet' type='text/css' href='resources/css/reset.css'>
     <link rel='stylesheet' type='text/css' href='resources/css/style.css'>
+    <link rel="icon" href="resources/images/favicon (1).ico" type="image/x-icon">
     <title>COLMAR ACADEMY</title>
   </head>
   <body>
     <!-- Header -->
 
     <header>
-      <nav class="container">
-        <div>
+      <nav class="head-container">      <!--Flex-->
+        <div class="lion">      <!--Flex-->
           <img src="resources/images/ic-logo.svg" />
-          <span>COLMARACADEMY</span>
+          <h5>COLMAR<span class="grey">ACADEMY</span></h5>
         </div>
-        <div class="menu">
-          <ul>
-            <li>On Campus</li>
+        <div class="menu">      <!--Flex-->
+          <ul role="presentation">
+            <li>On campus</li>
             <li>Online</li>
             <li>For companies</li>
             <li>Sign in</li>
@@ -27,16 +28,164 @@
           </ul>
         </div>
       </nav>
-      <div class="flex container">
-        <div class="main-banner">
-        </div>
-        <div class="">
-          <h1>Learn something new everyday</h1>
+      <div class="banner container">       <!--Flex-->
+          <img src="resources/images/banner.jpg" alt="">
+        <div class="signup section">
+          <h1 class="boldest">Learn something new everyday</h1>
           <br>
-          <h2>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
-          <div class="">Start Here</div>
+          <h3 class="medium">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h3>
+          <br>
+          <p class="button">Start here</p>
         </div>
       </div>
     </header>
+
+    <!--Information Section-->
+
+    <section class="second container">      <!--Flex-->
+      <div class="one">
+        <img src="resources/images/information-main.jpg" alt="">
+
+        <h2 class="headliner">It doesn't hurt to keep practicing</h2>
+        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effictur dolor consequat, tristique ligula."</p>
+        <h6>Emanuel, Sr Strategist at Hiring.com</h6>
+      </div>
+
+      <div class="two">      <!--Flex-->
+        <div class="block pad">      <!--Flex-->
+          <img src="resources/images/information-orientation.jpg" alt="" width="35%">
+          <div class="info">
+            <h3 class="medium">Orientation date</h3>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <span><a href="#">Read more</a></span>
+          </div>
+        </div>
+        <div class="block padding">
+          <img src="resources/images/information-campus.jpg" alt="" width="35%">
+          <div class="info">
+            <h3 class="medium">Our campus</h3>
+            <p>Find which campus is close by you</p>
+            <span><a href="#">Read more</a></span>
+          </div>
+        </div>
+        <div class="block padding lightgrey">
+          <img src="resources/images/information-guest-lecture.jpg" alt="" width="35%">
+          <div class="info">
+            <h3 class="medium">Our guest lecture</h3>
+            <p class="course-text">Join a keynote with Oliver Sack about music in medical treatment</p>
+            <span><a href="#">Read more</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Learning Section--><div class="lightgrey">
+    <h2 class="align headliner">Start learning</h2>
+    <div class="learning container"> <!--flex-->
+        <!--first column-->
+        <div class="first column">
+          <div class="software course">
+            <img src="resources/images/course-software.jpg" alt="">
+            <div class="texts">
+              <h3 class="medium">Software engineering</h3>
+              <p class="course-text">COURSE</p>
+              <p class="course-texts">Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+          </div>
+          <div class="data course">
+            <img src="resources/images/course-data.jpg" alt="">
+            <div class="texts">
+              <h3 class="medium">Data</h3>
+              <p class="course-texts">COURSE</p>
+              <p class="course-texts">Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+          </div>
+        </div>
+
+      <!--mid column-->
+      <div class="mid column">
+
+        <div class="computer course">
+          <img src="resources/images/course-computer-art.jpg" alt="">
+          <div class="texts">
+            <h3 class="medium">Computer art</h3>
+            <p class="course-texts">COURSE</p>
+            <p class="course-texts">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+          </div>
+        </div>
+        <div class="business course">
+          <img src="resources/images/course-business.jpg" alt="">
+          <div class="texts">
+            <h3 class="medium">Business</h3>
+            <p class="course-texts">COURSE</p>
+            <p class="course-texts">Product Development, Business Development, Startup</p>
+          </div>
+        </div>
+      </div>
+      <!--last column-->
+      <div class="last column">
+
+        <div class="design course">
+          <img class="image" src="resources/images/course-design.jpg" alt="">
+          <div class="texts">
+            <h3 class="medium">Design</h3>
+            <p class="course-texts">COURSE</p>
+            <p class="course-texts">User Experience Design, User Research, Visual Design</p>
+          </div>
+        </div>
+        <div class="marketing course">
+          <img src="resources/images/course-marketing.jpg" alt="">
+          <div class="texts">
+            <h3 class="medium">Marketing</h3>
+            <p class="course-texts">COURSE</p>
+            <p class="course-texts">Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <!--Thesis Section-->
+    <h2 class="align headliner">Thesis exhibit</h2>
+    <section class="fourth container">
+      <div class="onee">
+        <video width="100%" height="auto">
+          <source src="resources/videos/thesis.mp4" type="video/mp4">
+        </video>
+          <h3 class="medium">Reimagine urban</h3>
+          <p class="course-texts">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effictur dolor consequat, tristique ligula."</p>
+      </div>
+
+      <div class="duo">
+
+        <div class="blockk pda lightgrey">
+          <img src="resources/images/thesis-fisma.jpg" alt="">
+          <div class="infoo">
+            <h3 class="medium">Fisma: Design and Prototype</h3>
+            <p class="course-texts">Designer showcase of new prototype product</p>
+          </div>
+        </div>
+        <div class="blockk">
+          <img src="resources/images/thesis-now-and-then.jpg" alt="">
+          <div class="infoo">
+            <h3 class="medium">Now and then</h3>
+            <p class="course-texts">Research study about New York</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-texts">
+        <h6>&copy 2016 Colmar Academy. All rights reserved</h6>
+        <ul role="presentation">
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

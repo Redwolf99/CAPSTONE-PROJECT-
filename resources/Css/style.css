@@ -1,41 +1,58 @@
 /* Universal Styles */
 
 html {
-  font-family: "Helvetica", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   background-color: white;
+  font-family: 'arial';
 }
 
 body {
   line-height: 1.4;
 }
 
-.container {
-  max-width: ;
-  margin: ;
-}
+
 
 .flex {
   display: flex;
 }
 
-/*header*/
-.main-banner {
-  height: 30rem;
-  width: 60%;
-  padding: 32px 24px;
-  background-image: url("../images/banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+/*Fonts*/
+.headliner {
+  font-size: 2rem;
+  font-weight: bold;
 }
+
+.banner .boldest {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.medium {
+  font-weight: bold;
+}
+
+.course-texts {
+  font-size: medium;
+}
+ footer {
+   font-size: small;
+ }
+
+/*header*/
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 64px;
-  background-color: white;
-  color: black;
+}
+
+.head-container{
+  padding: 0 24px;
+}
+
+.grey {
+  color: grey;
 }
 
 nav div {
@@ -49,9 +66,225 @@ nav li {
 }
 
 nav ul {
-  margin-right: 24px;
 }
 
 .truncated-menu {
   display: none;
+}
+
+header .banner {
+  background-color: lightgrey;
+}
+
+.banner{
+display:flex;
+height: 32rem;
+}
+
+.banner img {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.button {
+  padding: 8px 0;
+  background-color: grey;
+  color: white;
+  text-align: center;
+
+}
+
+.signup {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  margin: auto;
+}
+
+@media only screen and(max-width: 480px) {
+  nav li { display: none;
+  }
+}
+
+  /*information Section*/
+section {
+  display: flex;
+  background-color: white;
+
+}
+
+.one {
+  max-width: 60%;
+  padding: 32px 24px;
+}
+
+.one img{
+  width: 100%;
+}
+
+
+ .second h2 {
+   padding-top: 32px;
+   padding-bottom: 24px;
+ }
+
+.second p {
+  font-size: medium;
+}
+
+.second h6 {
+  font-size: small;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+ .two {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: left;
+  align-items: center;
+  padding: 32px 16px;
+
+}
+
+.block {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.block a {
+text-decoration: none;
+}
+.pad {
+  padding: 0 16px 16px 16px;
+}
+
+.padding {
+  padding: 16px 16px;
+
+}
+
+.lightgrey {
+  background-color: lightgrey;
+}
+
+.info {
+  padding-left: 16px;
+}
+
+/*Thesis Divitis*/
+.fourth {
+padding-top: 32px;
+}
+
+.onee {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px;
+  width: 60%;
+}
+
+
+
+.onee h3 {
+  padding: 24px 0 8px 0;
+}
+
+.onee p {
+padding-bottom: 32px;
+}
+
+.fourth video {
+  width: 100%;
+}
+
+.duo {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: left;
+  align-items: center;
+  padding: 0px 16px;
+}
+
+.blockk {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.pda {
+  margin-top: 16px;
+}
+
+.align{
+text-align: center
+}
+
+.blockk img {
+  width: 35%;
+  padding: 16px 16px;
+}
+
+.infoo {
+  padding-left: 16px;
+}
+
+ /*Learning Section*/
+ .learning {
+  max-width: inherit;
+  padding: 32px 72px;
+  display: flex;
+}
+
+.learning div {
+}
+
+ h1 {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.course {
+
+  margin-right: 32px;
+  margin-bottom: 32px;
+  display: block;
+}
+
+.column img {
+  width: 270px;
+}
+
+.texts {
+  padding: 16px 0 24px 16px;
+}
+
+.business {
+}
+
+.texts h3 {
+  padding: 8px 0;
+}
+
+/*footer*/
+
+footer {
+  padding-bottom: 32px;
+}
+.footer-texts{
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  justify-content: space-between
+}
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0 16px;
 }
